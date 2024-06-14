@@ -139,7 +139,18 @@
     <ClCompile Include="4강_이스케이프.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="4강_입력.c" />
+    <ClCompile Include="4강_입력.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="lectures4.c" />
+    <ClCompile Include="lectures5.c" />
+    <ClCompile Include="메인.c" />
+    <ClCompile Include="lectures1.c" />
+    <ClCompile Include="lectures2.c" />
+    <ClCompile Include="lectures3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lectures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
