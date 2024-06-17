@@ -85,6 +85,7 @@ void lectures4()
 	// int FirstNum1, FirstNum2;   
 	// 두 수의 뺄셈 : 결과   
 	// 두 수의 곱셈 : 결과
+	
 	printf("문제1\n");
 	int FirstNum1, FirstNum2;
 	printf("첫번째 정수를 입력해주세요 :");
@@ -95,6 +96,7 @@ void lectures4()
 	printf("두 수의 곱셈 : %d\n\n", FirstNum1 * FirstNum2);
 
 	// 문제 2. " 3개의 정수를 입력 받아서, SecondNum1 * SecondNum2 + SecondNum3 출력하는 코드를 작성해보세요.
+
 	printf("문제2\n");
 	int SecondNum1, SecondNum2, SecondNum3;
 	printf("첫번째 정수를 입력해주세요 :");
@@ -109,6 +111,7 @@ void lectures4()
 	// 문제 3. " 두 개의 정수를 입력받아서 몫과 나머지를 출력하는 코드를 작성해보세요.
 	// 몫을 구하는 방식 : a / b(나눈 값에서 정수 부분이 몫)
 	// a % b =  a를 b로 나눈 나머지 값
+	
 	printf("문제3\n");
 	int a, b;
 	printf("첫번째 정수를 입력해주세요 :");
@@ -129,6 +132,7 @@ void lectures4()
 	printf("%d의 제곱 : %d \n\n", c, c * c);
 	
 	//문제5. 세 개의 정수를 입력을 받아서, {fifthnum1 - fifthnum2} x { fifthnum2 + fifthnum3 } x { fifthnum3 * fifthnum1} 의 결과를 출력하는 코드를 작성해보세요.
+	
 	printf("문제5\n");
 	int fifthnum1, fifthnum2, fifthnum3;
 	printf("첫번째 정수를 입력해주세요 :");
@@ -138,5 +142,5 @@ void lectures4()
 	printf("세번째 정수를 입력해주세요 :");
 	scanf_s(" %d", &fifthnum3);
 
-	printf("세 정수의 값 : %d \n\n", fifthnum1 - fifthnum2 * fifthnum2 + fifthnum3 * fifthnum3 * fifthnum1);
+	printf("세 정수의 값 : %d \n\n", (fifthnum1 - fifthnum2) * (fifthnum2 + fifthnum3) * (fifthnum3 * fifthnum1));
 }

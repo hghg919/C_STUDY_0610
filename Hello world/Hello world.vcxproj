@@ -144,6 +144,7 @@
     </ClCompile>
     <ClCompile Include="lectures4.c" />
     <ClCompile Include="lectures5.c" />
+    <ClCompile Include="lectures6.c" />
     <ClCompile Include="메인.c" />
     <ClCompile Include="lectures1.c" />
     <ClCompile Include="lectures2.c" />
