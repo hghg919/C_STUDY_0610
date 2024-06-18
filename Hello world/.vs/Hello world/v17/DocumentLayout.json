@@ -59,8 +59,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-14T07:18:27.566Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -70,7 +69,7 @@
               "RelativeDocumentMoniker": "lectures7.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0613\\Hello world\\lectures7.c",
               "RelativeToolTip": "lectures7.c",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFcAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAGAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-18T06:56:47.991Z",
               "EditorCaption": ""
@@ -85,8 +84,7 @@
               "RelativeToolTip": "lectures6.c",
               "ViewState": "AQIAAEYAAAAAAAAAAAAAAG8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-17T07:10:27.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T07:10:27.613Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "lectures4.c",
               "ViewState": "AQIAAG8AAAAAAAAAAAAAAJAAAABqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-14T08:23:25.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T08:23:25.906Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "lectures5.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-14T08:21:39.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T08:21:39.179Z"
             },
             {
               "$type": "Document",
@@ -124,8 +120,7 @@
               "RelativeToolTip": "lectures3.c",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-14T08:11:33.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T08:11:33.76Z"
             },
             {
               "$type": "Document",
@@ -137,8 +132,7 @@
               "RelativeToolTip": "lectures2.c",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-14T08:09:09.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T08:09:09.225Z"
             },
             {
               "$type": "Document",
@@ -150,8 +144,7 @@
               "RelativeToolTip": "lectures1.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-06-14T07:43:51.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T07:43:51.617Z"
             },
             {
               "$type": "Document",
@@ -163,8 +156,7 @@
               "RelativeToolTip": "lectures.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-14T07:33:00.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T07:33:00.57Z"
             }
           ]
         }
