@@ -105,7 +105,7 @@ void lectures6()
 	// scanf 작업 데이터의 할당
 
 	int cal1, cal2, cal3;
-	scanf_s("%d %d %d\n", &cal1, &cal2, &cal3);
+	scanf_s("%d %d %d", &cal1, &cal2, &cal3);
 	variablea = cal1 + cal2 * cal3;
 	printf("variablea의 값 : %d \n", variablea);
 	variableb = 7 / 3 % 2;
