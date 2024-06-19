@@ -1,3 +1,5 @@
-﻿  lectures6.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures6.c(74,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+﻿  lectures8.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(106,14): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(132,18): warning C4552: '<<': 식의 결과가 사용되지 않습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(137,18): warning C4552: '>>': 식의 결과가 사용되지 않습니다.
   Hello world.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\x64\Debug\Hello world.exe

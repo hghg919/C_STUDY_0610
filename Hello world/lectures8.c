@@ -126,29 +126,29 @@ void lectures8()
 	e = 0b00010010;
 	my_int = 0b00011101;
 	result = d ^ e;
-	printf("내가 계산한 값 %d 실제값 %d\n", my_int, result);
+	printf("내가 계산한 값 %d 실제값 %d\n\n", my_int, result);
 
 	char overflowedvalue = 0b01000000;
-	overflowedvalue << 2; // 어떤 값이 나올까요? 왜 그런 값이 나올까요?
+	overflowedvalue << 1; // 어떤 값이 나올까요? 왜 그런 값이 나올까요? 128
 	//printf 출력해보기
-	printf("%d\n", overflowedvalue);
+	printf("%d\n", overflowedvalue << 1);
 
 	overflowedvalue = 0b00000100;
-	overflowedvalue >> 5; // 어떤 값이 나올까요? 왜 그런 값이 나올까요?
+	overflowedvalue >> 5; // 어떤 값이 나올까요? 왜 그런 값이 나올까요? 0
 	//printf 출력해보기
-	printf("%d\n", overflowedvalue);
+	printf("%d\n\n", overflowedvalue >> 5);
 
-	//10진수 하나 입력 받아서, 해당수의 2의 보수 값을 출력하는 코드를 작성해보세요. (~)연사자 사용해서.
+	//10진수 하나 입력 받아서, 해당수의 2의 보수 값을 출력하는 코드를 작성해보세요. (~)연산자 사용해서.
 	int twocomplement;
-	scanf_s("%d\n", &twocomplement);
+	scanf_s("%d", &twocomplement);
 
-	printf("2의 보수의 값을 출력 : %d\n", twocomplement);
+	printf("2의 보수의 값을 출력 : %d\n", twocomplement = ~twocomplement + 1);
 
 	//시프트 연산
 	//10진수 하나 입력 받아서, 해당 수에 8을 곱한후 32로 나누는 코드를 x,/ 없이 작성해보세요.
 	//8과 32가 반드시 코드에 들어가도록, 비트 연산자(<<, >>) 사용할 것.
 	int shiftnum;
-	scanf_s("%d\n", &shiftnum);
+	scanf_s("%d", &shiftnum);
 
-	printf("8을 곱한 후 32로 나눈 값 : %d", shiftnum);
+	printf("8을 곱한 후 32로 나눈 값 : %d", shiftnum << 3 >> 5);
 }
