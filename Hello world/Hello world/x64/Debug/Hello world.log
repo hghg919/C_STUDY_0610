@@ -1,5 +1,13 @@
-﻿  lectures8.c
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures8.c(106,11): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures8.c(132,18): warning C4552: '<<': 식의 결과가 사용되지 않습니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures8.c(137,18): warning C4552: '>>': 식의 결과가 사용되지 않습니다.
+﻿  lectures9.c
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(75,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(76,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(77,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(78,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(79,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(80,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(81,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(82,62): warning C4215: 비표준 확장이 사용됨: long float입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(82,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(85,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(86,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
   Hello world.vcxproj -> C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\x64\Debug\Hello world.exe
