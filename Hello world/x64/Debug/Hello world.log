@@ -1,5 +1,30 @@
-﻿  lectures8.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(106,14): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(132,18): warning C4552: '<<': 식의 결과가 사용되지 않습니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures8.c(137,18): warning C4552: '>>': 식의 결과가 사용되지 않습니다.
+﻿  lectures9.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(115,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(115,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(116,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(116,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(117,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(117,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(118,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(118,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(119,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(119,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(120,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(120,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(121,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(121,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(122,62): warning C4215: 비표준 확장이 사용됨: long float입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(122,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(122,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(125,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(125,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(126,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(126,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(131,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(131,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(132,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(132,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(133,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(133,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\lectures9.c(167,10): warning C4477: 'scanf_s' : 서식 문자열 '%f'에 'float *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const double *'입니다.
   Hello world.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0613\Hello world\x64\Debug\Hello world.exe

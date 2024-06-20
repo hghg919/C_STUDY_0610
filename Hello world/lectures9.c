@@ -123,15 +123,47 @@ void lectures9()
 
 	double my_double = 2.45;
 	printf("double 데이터 크기 : %d \n", sizeof(my_double));
-	printf("double 데이터 크기 : %d \n", sizeof my_double);
+	printf("double 데이터 크기 : %d \n\n", sizeof my_double);
 
 	// 문제2. 리터럴 상수를 sizeof 연산자로 출력해보세요.
 	// 3.15, 3.15f, 10, 어떤 데이터를 출력하는지 파악해보기
 	// 예를 들어 sizeof(5); 어떤 값이 출력하는 함수를 표현해보기.
+	printf("3.15의 값 : %d \n", sizeof(3.15)); // long float
+	printf("3.15f의 값 : %d \n", sizeof(3.15f)); // float
+	printf("10의 값 : %d \n\n", sizeof(10)); // int
 
 	// 문제3. 직사각형의 넓이를 구하는 프로그램을 작성을 해보세요.
 	// 첫번째 조건 : 좌표를 두개 지정받아야 합니다. (xpos1,ypos1) (xpos2,ypos2)
 	// 두번째 조건 : xpos2가 xpos1보다 커야합니다.
 	// xpos2 - xpos1 길이로 하는 직사각형을 구하시면 됩니다.
 	// (4,6) (6,8) 2x2 = 4
+	int xpos1, ypos1, xpos2, ypos2;
+	printf("좌표를 순서대로 입력하세요(xpos2,ypos2가 xpos1,ypos1보다 커야합니다) : (xpos1,ypos1) (xpos2,ypos2)\n");
+	scanf_s("%d %d %d %d", &xpos1, &ypos1, &xpos2, &ypos2);
+	
+	/*if (xpos1 > xpos2)
+	{
+		int temp = xpos1;
+		xpos1 = xpos2;
+		xpos2 = temp;
+	}
+
+	if (ypos1 > ypos2)
+	{
+		int temp = ypos1;
+		ypos1 = ypos2;
+		ypos2 = temp;
+	}
+	*/
+
+	printf("직사각형의 넓이 : %d \n\n", (xpos2 - xpos1) * (ypos2 - ypos1));
+
+	// 심볼릭 상수 문제1.
+	// const 키워드를 사용하여 파이를 PI로 저장하고 그 값을 3.14로 한다.
+	// 원의 넓이를 구하는 코드를 상수를 사용하여 표현하세요
+	const double PI = 3.14;
+	int AREA;
+	scanf_s("%d", &AREA);
+	scanf_s("%f", &PI);
+	printf("원의 넓이 : %f", AREA * PI);
 }
