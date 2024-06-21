@@ -1,13 +1,4 @@
-﻿  lectures9.c
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(75,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(76,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(77,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(78,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(79,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(80,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(81,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(82,62): warning C4215: 비표준 확장이 사용됨: long float입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(82,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(85,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures9.c(86,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+﻿  lectures10.c
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures10.c(62,21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\lectures10.c(66,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Hello world.vcxproj -> C:\Users\Administrator\Desktop\C_STUDY_0613\Hello world\x64\Debug\Hello world.exe

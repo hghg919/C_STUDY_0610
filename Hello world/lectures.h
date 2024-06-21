@@ -9,3 +9,4 @@ void lectures6();
 void lectures7();
 void lectures8();
 void lectures9();
+void lectures10();

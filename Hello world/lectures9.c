@@ -112,36 +112,67 @@ void lectures9()
 	// sizeof 연산자를 사용해서 데이터형을 출력하기 .. 
 	// char, short int, long, long long, float, double, long float
 
-	printf("char 데이터 크기 : %d \n", sizeof(char));
-	printf("short 데이터 크기 : %d \n", sizeof(short));
-	printf("int 데이터 크기 : %d \n", sizeof(int));
-	printf("long 데이터 크기 : %d \n", sizeof(long));
-	printf("long long 데이터 크기 : %d \n", sizeof(long long));
-	printf("float 데이터 크기 : %d \n", sizeof(float));
-	printf("double 데이터 크기 : %d \n", sizeof(double));
-	printf("long float 데이터 크기 : %d \n\n", sizeof(long float));
+	//이렇게 했으면 경고를 해결해 볼 수도 있을겁니다.
+	int sizenum = sizeof(char);
+	printf("char 데이터 크기 : %d \n", sizenum);
+	
+	sizenum = sizeof(short);
+	printf("short 데이터 크기 : %d \n", sizenum);
+	
+	sizenum = sizeof(int);
+	printf("int 데이터 크기 : %d \n", sizenum);
 
+	sizenum = sizeof(long);
+	printf("long 데이터 크기 : %d \n", sizenum);
+
+	sizenum = sizeof(long long);
+	printf("long long 데이터 크기 : %d \n", sizenum);
+
+	sizenum = sizeof(float);
+	printf("float 데이터 크기 : %d \n", sizenum);
+
+	sizenum = sizeof(double);
+	printf("double 데이터 크기 : %d \n", sizenum);
+
+	sizenum = sizeof(long float);
+	printf("long float 데이터 크기 : %d \n\n", sizenum);
+
+	sizenum = sizeof(double);
 	double my_double = 2.45;
-	printf("double 데이터 크기 : %d \n", sizeof(my_double));
-	printf("double 데이터 크기 : %d \n\n", sizeof my_double);
+	printf("double 데이터 크기 : %d \n", sizenum);
+	sizenum = sizeof(long double);
+	printf("long double 데이터 크기 : %d \n\n", sizenum);
 
 	// 문제2. 리터럴 상수를 sizeof 연산자로 출력해보세요.
 	// 3.15, 3.15f, 10, 어떤 데이터를 출력하는지 파악해보기
 	// 예를 들어 sizeof(5); 어떤 값이 출력하는 함수를 표현해보기.
-	printf("3.15의 값 : %d \n", sizeof(3.15)); // long float
-	printf("3.15f의 값 : %d \n", sizeof(3.15f)); // float
-	printf("10의 값 : %d \n\n", sizeof(10)); // int
+	sizenum = sizeof(10);
+	printf("정수형 리터럴 정수 크기 : %d\n", sizenum);
+	sizenum = sizeof(3.14);
+	printf("리터럴 상수의 실수 표현의 기본 자료형 : %d\n", sizenum);
+	sizenum = sizeof('A');
+	printf("문자의 상수 표현의 기본 크기 : %d\n", sizenum);
+
+	sizenum = sizeof(3.15);
+	printf("3.15의 값 : %d \n", sizenum); // long float
+	sizenum = sizeof(3.15f);
+	printf("3.15f의 값 : %d \n", sizenum); // float
+	sizenum = sizeof(10);
+	printf("10의 값 : %d \n\n", sizenum); // int
 
 	// 문제3. 직사각형의 넓이를 구하는 프로그램을 작성을 해보세요.
 	// 첫번째 조건 : 좌표를 두개 지정받아야 합니다. (xpos1,ypos1) (xpos2,ypos2)
 	// 두번째 조건 : xpos2가 xpos1보다 커야합니다.
 	// xpos2 - xpos1 길이로 하는 직사각형을 구하시면 됩니다.
 	// (4,6) (6,8) 2x2 = 4
-	int xpos1, ypos1, xpos2, ypos2;
-	printf("좌표를 순서대로 입력하세요(xpos2,ypos2가 xpos1,ypos1보다 커야합니다) : (xpos1,ypos1) (xpos2,ypos2)\n");
+	int xpos1, ypos1, xpos2, ypos2, result;
+	printf("좌표를 순서대로 입력하세요 (xpos2,ypos2가 xpos1,ypos1보다 커야합니다) : (xpos1,ypos1) (xpos2,ypos2)\n");
+	// 두번째 조건을 printf로 안내해주세요. (위에 표시) 좌표1과 좌표2를 따로 입력시키기 및 상세 설명
 	scanf_s("%d %d %d %d", &xpos1, &ypos1, &xpos2, &ypos2);
+	result = (xpos2 - xpos1) * (ypos2 - ypos1);
 	
-	/*if (xpos1 > xpos2)
+	/* chatgpt
+	if (xpos1 > xpos2)
 	{
 		int temp = xpos1;
 		xpos1 = xpos2;
@@ -156,7 +187,7 @@ void lectures9()
 	}
 	*/
 
-	printf("직사각형의 넓이 : %d \n\n", (xpos2 - xpos1) * (ypos2 - ypos1));
+	printf("직사각형의 넓이 : %d \n\n", result);
 
 	// 심볼릭 상수 문제1.
 	// const 키워드를 사용하여 파이를 PI로 저장하고 그 값을 3.14로 한다.
@@ -164,6 +195,6 @@ void lectures9()
 	const double PI = 3.14;
 	int AREA;
 	scanf_s("%d", &AREA);
-	scanf_s("%f", &PI);
+	scanf_s("%f", &PI); //필요하지는 않음
 	printf("원의 넓이 : %f", AREA * PI);
 }
