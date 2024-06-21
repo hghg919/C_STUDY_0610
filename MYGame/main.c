@@ -15,7 +15,7 @@ int main(void)
 	// 내가 생각하는 결과를 같이 출력하는 프로그램을 만들어 보세요.
 
 	srand(time(NULL));	
-	int cumputervalue = rand() % 100 + 1; // 1 ~ 100의 랜덤한 숫자가 cumputervalue에 입력이 됩니다.
+	int computervalue = rand() % 100 + 1; // 1 ~ 100의 랜덤한 숫자가 cumputervalue에 입력이 됩니다.
 	int uservalue;
 
 	// 컴퓨터의 밸류는 ~ 값입니다.
@@ -31,7 +31,11 @@ int main(void)
 	int start_num;
 	scanf_s("%d", &start_num);
 
-	printf("플레이어의 값을 넣어주세요!");
+	printf("플레이어의 값을 넣어주세요.\n");
+	scanf_s("%d", &uservalue);
+
+	printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
+	printf("플레이어의 값은 %d 입니다.", uservalue);
 
 	return 0;
 }
