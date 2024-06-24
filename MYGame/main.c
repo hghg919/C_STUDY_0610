@@ -21,11 +21,11 @@ int main(void)
 	// 컴퓨터의 밸류는 ~ 값입니다.
 	
 	// 플레이어의 값은 ~ 입니다.
-	printf("☆★☆★☆★☆★☆★☆\n");
-	printf("☆★☆★☆★☆★☆★☆\n");
-	printf("★☆★게임 시작!★☆★\n");
-	printf("☆★☆★☆★☆★☆★☆\n");
-	printf("☆★☆★☆★☆★☆★☆\n\n");
+	printf("| ☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ★☆★게임 시작!★☆★ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆ |\n\n");
 
 	printf("숫자를 입력하면 게임이 시작합니다.\n");
 	int start_num;
@@ -35,7 +35,27 @@ int main(void)
 	scanf_s("%d", &uservalue);
 
 	printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
-	printf("플레이어의 값은 %d 입니다.", uservalue);
+	printf("플레이어의 값은 %d 입니다.\n\n", uservalue);
+
+	if (uservalue == computervalue)
+	{
+		printf("축하합니다. 게임을 클리어하셨습니다.\n");
+	}
+	else 
+	{
+		printf("틀렸습니다. 다시 시도해보세요.\n");
+		printf("다시 시도하려면 1을 입력하세요. 종료하려면 0을 입력하세요.\n");
+		int Re_num;
+		scanf_s("%d", &Re_num); // 반복문 필요 값을 입력할때 마다 컴퓨터 값도 변경
+	}
+
+
+
+	//플레이어의 값과 컴퓨터의 값이 같으면 축하합니다. 게임을 클리어하셨습니다.
+
+	//플레이어의 값과 컴퓨터의 값이 다르면 틀렸습니다. 다시 시도해보세요.
+
+	//다시 시도를 하려면 어떻 해야 할까? -> 내일 강의
 
 	return 0;
 }
