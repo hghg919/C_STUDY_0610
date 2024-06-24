@@ -163,11 +163,8 @@ void lectures11()
 		
 		if (c_num2 != 107)
 		printf("k가 아닙니다.\n\n");
-		
-
-		/*c_num2 = 'k';
-		printf("c_num2의 값은 %c \n");
-		*/ //추가 작성 필요
+		c_num2 = 'k';
+		printf("c_num2의 값은 %c \n", c_num2);
 
 /*게임이 종료되면 플레이어는 점수를 획득합니다.
 * 이 점수를 score라는 정수형 변수에 저장을 할겁니다.
