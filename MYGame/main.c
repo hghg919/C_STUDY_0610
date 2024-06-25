@@ -34,33 +34,61 @@ int main(void)
 	printf("플레이어의 값을 넣어주세요.\n");
 	scanf_s("%d", &uservalue);
 
-	printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
-	printf("플레이어의 값은 %d 입니다.\n\n", uservalue);
+	printf("\n");
 
-	if (uservalue == computervalue)
-	{
-		printf("축하합니다. 게임을 클리어하셨습니다.\n");
-	}
-	else 
-	{
-		printf("틀렸습니다. 다시 시도해보세요.\n");
-		printf("다시 시도하려면 1을 입력하세요. 종료하려면 0을 입력하세요.\n"); // 반복문 필요 값을 입력할때 마다 컴퓨터 값도 변경
-	}
-	/*
-	* 숫자 맞추기 게임 도전사항
-      전제 사항 : 조건문과 반복문으로 답 맞추기 구현
-      도전 과제1 : 플레이어의 값이 컴퓨터값과 다르면
-      작으면 작다. 크면 크다라고 출력 되도록 작성
-      도전 과제2 : 플레이어가 숫자를 맞출 수 있는 기회를
-      제공해서. 틀릴 때 마다 기회를 줄이는 코드.
-	*/
-
+	//printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
+	//printf("플레이어의 값은 %d 입니다.\n\n", uservalue);
 
 	//플레이어의 값과 컴퓨터의 값이 같으면 축하합니다. 게임을 클리어하셨습니다.
 
 	//플레이어의 값과 컴퓨터의 값이 다르면 틀렸습니다. 다시 시도해보세요.
 
-	//다시 시도를 하려면 어떻 해야 할까? -> 내일 강의
+	//다시 시도를 하려면 어떻 해야 할까? 
+	
+	int ab;
+	for (int ab = 6 ; ab > 0 ; ab--)
+	{
+
+		if (uservalue == computervalue)
+		{
+			printf("축하합니다! 게임을 클리어하셨습니다.\n");
+			break;
+		}
+		else
+		{
+			printf("틀렸습니다. 다시 시도해보세요.\n\n");
+			printf("%d번의 기회가 남았습니다\n", ab);
+
+			if (uservalue < computervalue)
+			{
+				printf("플레이어의 값보다 컴퓨터의 값이 큽니다.\n");
+				printf("플레이어의 값을 넣어주세요. 직전값 : %d \n", uservalue);
+				scanf_s("%d", &uservalue);
+
+				printf("\n");
+			}
+			if (uservalue > computervalue)
+			{
+				printf("플레이어의 값보다 컴퓨터의 값이 작습니다.\n");
+				printf("플레이어의 값을 넣어주세요. 직전값 : %d \n", uservalue);
+				scanf_s("%d", &uservalue);
+
+				printf("\n");
+			}
+			if (ab == 1)
+			{
+				printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
+			}
+			
+		}
+	}
+
+	/*
+	* 숫자 맞추기 게임 도전사항
+      전제 사항  : 조건문과 반복문으로 답 맞추기 구현
+      도전 과제1 : 플레이어의 값이 컴퓨터값과 다르면 작으면 작다. 크면 크다라고 출력 되도록 작성
+      도전 과제2 : 플레이어가 숫자를 맞출 수 있는 기회를 제공해서. 틀릴 때 마다 기회를 줄이는 코드.
+	*/
 
 	return 0;
 }

@@ -86,7 +86,7 @@ void lectures12_2()
 	// i_scanfnum의 현재 값과 "반복문 실습", i_scanfnum의 값은 : \n
 	// 정수형 변수를 출력을 해라. printf함수로 사용해서. 앞에 "반복문 실습 i_scanfnum의 값은 :"
 	
-	for (int i = 0; i < i_scanfnum; i++)
+	for (int i = 0 ; i < i_scanfnum; i++)
 	{
 		printf("반복문 실습 i_scanfnum의 값은 : %d\n", i_scanfnum);
 	}
