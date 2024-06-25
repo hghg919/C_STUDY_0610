@@ -13,58 +13,67 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\강의">
+      <UniqueIdentifier>{838db8c6-d6b1-40ab-a75e-57124f4d236e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1강_hello world.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="2강_컴파일러.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="3강_변수.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="4강_이스케이프.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="4강_입력.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="메인.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures1.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures2.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures3.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="lectures5.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures4.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="lectures5.c">
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures6.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures7.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures8.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures9.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures10.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
     <ClCompile Include="lectures11.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="lectures12.c">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="메인.c">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="lectures13.c">
+      <Filter>소스 파일\강의</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

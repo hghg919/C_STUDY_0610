@@ -13,6 +13,10 @@ int main(void)
 	//lectures8();
 	//lectures9();
 	//lectures10();
-	lectures11();
+	//lectures11();
+	//lectures12();
+	lectures12_2();
+	//lectures12_3();
+
 	return 0;
 }
