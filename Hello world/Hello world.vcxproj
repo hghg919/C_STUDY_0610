@@ -145,7 +145,9 @@
     <ClCompile Include="lectures10.c" />
     <ClCompile Include="lectures11.c" />
     <ClCompile Include="lectures12.c" />
+    <ClCompile Include="lectures12_3.c" />
     <ClCompile Include="lectures13.c" />
+    <ClCompile Include="lectures13_switch.c" />
     <ClCompile Include="lectures4.c" />
     <ClCompile Include="lectures5.c" />
     <ClCompile Include="lectures6.c" />

@@ -21,17 +21,19 @@ int main(void)
 	// 컴퓨터의 밸류는 ~ 값입니다.
 	
 	// 플레이어의 값은 ~ 입니다.
-	printf("| ☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ★☆★게임 시작!★☆★ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆ |\n\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★★☆★게임 시작!★☆★★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆ |\n\n");
 
-	printf("숫자를 입력하면 게임이 시작합니다.\n");
+	printf("숫자를 입력하면 게임이 시작합니다.\n");  // 정해진 숫자만 입력하게 <0 : 게임종료> <1 : 게임시작> 그외 숫자는 숫자를 다시 입력하게
 	int start_num;
 	scanf_s("%d", &start_num);
 
-	printf("플레이어의 값을 넣어주세요.\n");
+	printf("1 ~ 100 범위의 플레이어의 값을 넣어주세요.\n"); // 1 ~ 100 이외의 숫자는 다시 입력하게
 	scanf_s("%d", &uservalue);
 
 	printf("\n");
@@ -46,12 +48,12 @@ int main(void)
 	//다시 시도를 하려면 어떻 해야 할까? 
 	
 	int ab;
-	for (int ab = 6 ; ab > 0 ; ab--)
+	for (int ab = 7 ; ab > 0 ; ab--)
 	{
 
 		if (uservalue == computervalue)
 		{
-			printf("축하합니다! 게임을 클리어하셨습니다.\n");
+			printf("축하합니다! 게임을 클리어하셨습니다. \n컴퓨터의 값\n : %d", computervalue);
 			break;
 		}
 		else
@@ -67,7 +69,7 @@ int main(void)
 
 				printf("\n");
 			}
-			if (uservalue > computervalue)
+			else if (uservalue > computervalue)
 			{
 				printf("플레이어의 값보다 컴퓨터의 값이 작습니다.\n");
 				printf("플레이어의 값을 넣어주세요. 직전값 : %d \n", uservalue);

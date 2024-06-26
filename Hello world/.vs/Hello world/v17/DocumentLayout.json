@@ -6,12 +6,20 @@
       "AbsoluteMoniker": "D:0:0:{F34B843B-B155-4B66-9D46-C4187B929285}|..\\MYGame\\MYGame.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\MYGame\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures13_switch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures12_3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures13.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,8 +30,8 @@
       "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:\uBA54\uC778.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures11.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures12.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,17 +41,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "\uBA54\uC778.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\\uBA54\uC778.c",
               "RelativeDocumentMoniker": "\uBA54\uC778.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\\uBA54\uC778.c",
               "RelativeToolTip": "\uBA54\uC778.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-14T07:18:27.566Z",
               "IsPinned": true,
@@ -51,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "lectures.h",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures.h",
               "RelativeDocumentMoniker": "lectures.h",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures.h",
               "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAANAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwB0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-14T07:33:00.57Z",
               "IsPinned": true,
@@ -66,19 +74,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "lectures13_switch.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13_switch.c",
+              "RelativeDocumentMoniker": "lectures13_switch.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13_switch.c",
+              "RelativeToolTip": "lectures13_switch.c",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAE8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-26T08:11:49.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "lectures13.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13.c",
               "RelativeDocumentMoniker": "lectures13.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures13.c",
               "RelativeToolTip": "lectures13.c",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAOAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAH4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-26T06:56:09.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "lectures12_3.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12_3.c",
+              "RelativeDocumentMoniker": "lectures12_3.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12_3.c",
+              "RelativeToolTip": "lectures12_3.c",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABQAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-25T08:07:53.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "lectures12.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures12.c",
               "RelativeDocumentMoniker": "lectures12.c",
@@ -91,13 +125,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "lectures11.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures11.c",
               "RelativeDocumentMoniker": "lectures11.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\Hello world\\lectures11.c",
               "RelativeToolTip": "lectures11.c",
-              "ViewState": "AQIAALYAAAAAAAAAAAAwwMIAAAAVAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-24T06:56:17.365Z",
               "EditorCaption": ""
@@ -110,7 +144,7 @@
               "RelativeDocumentMoniker": "..\\MYGame\\main.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\C_STUDY_0610\\MYGame\\main.c",
               "RelativeToolTip": "..\\MYGame\\main.c",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAAAkAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-06-24T06:54:23.615Z",
               "EditorCaption": ""
