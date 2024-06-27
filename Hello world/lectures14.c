@@ -67,6 +67,10 @@ int inputnumber()
 }
 
 //문제1.
+// 함수를, 두 수를 비교해서 큰 수를 리턴하는 함수를 만들어보세요.
+// 두개의 변수를 매개변수로 받는 함수.
+// 두 수를 비교해서 큰 값을 리턴하는 함수를 만들어보세요.
+// 이름 : compare // 정수형 데이터를 비교, 실수형 데이터도 가능
 int compare(int a_num, int b_num)
 {
 	if (a_num > b_num)
@@ -79,7 +83,8 @@ int compare(int a_num, int b_num)
 	}
 }
 
-//문제2.
+//문제2.변수 하나를 받아서 그 수를 절대값으로 변경해주는 함수를 만들어보세요.
+// 음수 , 양수, 0
 int absolutenum(int ab_num)
 {
 	if (ab_num < 0) // 음수
@@ -92,7 +97,7 @@ int absolutenum(int ab_num)
 	}
 }
 
-// 문제3
+// 문제3 절대값으로 변경한 / 두 수를 비교하는 함수를 구현해보세요. 2개의 함수
 
 
 #include "lectures.h"
@@ -122,18 +127,5 @@ void lectures14() // 함수의 선언
 	secondnum = inputnumber();
 
 	int compare_value = compare(absolutenum(firstnum), absolutenum(secondnum));
-	printf("두 수를 절대값으로 변환한 값 중 큰값 : %d", compare_value); //집가서 보면서 수정
+	printf("두 수를 절대값으로 변환한 값 중 큰값 : %d", compare_value);
 }
-
-// 1.
-// 함수를, 두 수를 비교해서 큰 수를 리턴하는 함수를 만들어보세요.
-// 두개의 변수를 매개변수로 받는 함수.
-// 두 수를 비교해서 큰 값을 리턴하는 함수를 만들어보세요.
-// 이름 : compare // 정수형 데이터를 비교, 실수형 데이터도 가능
-
-/*
-* 2. 변수 하나를 받아서 그 수를 절대값으로 변경해주는 함수를 만들어보세요.
-* 이름 : absolutenum
-* 
-* 3. 절대값으로 변경한 / 두 수를 비교하는 함수를 구현해보세요. 2개의 함수
-*/

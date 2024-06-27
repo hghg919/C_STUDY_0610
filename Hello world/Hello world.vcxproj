@@ -155,6 +155,7 @@
     <ClCompile Include="lectures7.c" />
     <ClCompile Include="lectures8.c" />
     <ClCompile Include="lectures9.c" />
+    <ClCompile Include="단축키 모음.c" />
     <ClCompile Include="메인.c" />
     <ClCompile Include="lectures1.c" />
     <ClCompile Include="lectures2.c" />

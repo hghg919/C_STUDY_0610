@@ -23,8 +23,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Hello world\CountNumfunc.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="CountNumFunc.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

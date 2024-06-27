@@ -1,11 +1,13 @@
-#include <stdio.h>
+#pragma once
 
-void satrtnumbersetting();
+void StartNumberSetting();
 
-void setplayerhp();
+int SetPlayerHP();
 
-void gamewin();
+void inputPlayerValue();
 
-void Fail(int playhp);
+void GameWin();
 
-void setcolor(unsigned char BGColor, unsigned char);
+int Fail(int playerHP);
+
+void SetColor(unsigned char BGColor, unsigned char TextColor);
