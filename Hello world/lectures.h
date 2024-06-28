@@ -32,3 +32,4 @@ void lectures13_switch();
 /// ÇÔ¼ö
 /// </summary>
 void lectures14();
+void lectures15();

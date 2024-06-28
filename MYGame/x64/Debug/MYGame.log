@@ -1,7 +1,7 @@
 ﻿  CountNumfunc.c
   main.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MYGame\main.c(39,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MYGame\main.c(51,2): warning C4013: 'GameStart'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MYGame\main.c(71,6): warning C4101: 'ab' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\C_STUDY_0610\MYGame\main.c(47,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\C_STUDY_0610\MYGame\main.c(77,6): warning C4101: 'ab' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다...
-  MYGame.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\MYGame.exe
+C:\Users\Administrator\Desktop\C_STUDY_0610\MYGame\CountNumfunc.c(76,1): warning C4716: 'Fail': 값을 반환해야 합니다.
+  MYGame.vcxproj -> C:\Users\Administrator\Desktop\C_STUDY_0610\Hello world\x64\Debug\MYGame.exe

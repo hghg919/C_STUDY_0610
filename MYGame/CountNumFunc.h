@@ -3,7 +3,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-void StartNumberSetting();
+int InputNumber();
+
+void StartGameSetting(); // = void GameStart(); 
 
 int SetPlayerHP();
 
@@ -15,4 +17,6 @@ int Fail(int playerHP);
 
 void SetColor(unsigned char BGColor, unsigned char TextColor);
 
-void GameStart();
+void GameStart();  // 자체제작
+
+void Clear_ConSole();

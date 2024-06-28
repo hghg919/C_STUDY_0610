@@ -25,30 +25,34 @@
 	// 만약 플레이어의 현재 체력이 0보다 작거나 같으면 게임을 종료시켜라.
 	// 함수화_2 : 플레이어의 체력을 감소 시키고 숫자를 다시 맞출 기회를 주는 코드를 함수화 시켜 볼겁니다.
 
-   
-
+	// 게임 시작 전 플레이어의 목숨(기회)를 정할 수 있게 코딩
+	// 집에 가서 전반적인 게임의 개선
+	// system("cls") 함수로 --> console 함수 // clearconsole함수
+	// 함수 간결화 : for -> while 변경 생각해볼만 함
+	// 전역 함수 지양하도록 작성
 */
-
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "CountNumFunc.h" // int inputnumber(); 함수를 미리 선언해두는 방식
+                          //                    사용이유 : 컴파일러는 코드를 위에서 부터 읽기 때문에 미리 선언되어 있지 않는 함수를
+                          //                    c언어에서는
 
-int main(void)
+int main(void) // 함수 사용시 변수 에러 해결
 {
+
+	SetColor(0, 15); // 0 ~ 15 앞 백그라운드 뒤 글색 15 흰색
+
 	srand(time(NULL));	
 	int computervalue = rand() % 100 + 1; // 1 ~ 100의 랜덤한 숫자가 cumputervalue에 입력이 됩니다.
 	int uservalue;
 
-	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ★☆★☆★☆★☆★☆★☆★☆★☆★ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ☆★☆★☆★숫자 게임!★☆★☆★☆ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
-	printf("| ★☆★☆★☆★☆★☆★☆★☆★☆★ |\n");
-	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n\n");
+	// 지역 변수는 그 범위(Scope)가 끝났을때 메모리에서 제거됩니다.
 
 	GameStart();
+
+	Clear_ConSole();  // 위에 창을 없앰
 
 	while (1)
 	{
@@ -68,12 +72,15 @@ int main(void)
 		}
 	}
 
+	Clear_ConSole();
+
 	int ab; // 남은 기회가 1일때 값을 맞추어도 실패했다고 뜨는 부분을 해결해야함
 	for (int ab = 7 ; ab > 0 ; ab--)
 	{
 
 		if (uservalue == computervalue) // 함수화1 : gamewin() 게임에서 승리를 구현하는 함수 만들어보세요.
 		{
+			SetColor(0, 1);
 			printf("축하합니다! 게임을 클리어하셨습니다. \n컴퓨터의 값 : %d", computervalue);
 			break;
 		}
@@ -88,8 +95,8 @@ int main(void)
 				printf("플레이어의 값을 넣어주세요. 직전값 : %d \n", uservalue);
 				printf("입력 : ");
 				scanf_s("%d", &uservalue);
+				system("cls");
 
-				printf("\n");
 			}
 			else if (uservalue > computervalue)
 			{
@@ -97,12 +104,13 @@ int main(void)
 				printf("플레이어의 값을 넣어주세요. 직전값 : %d \n", uservalue);
 				printf("입력 : ");
 				scanf_s("%d", &uservalue);
+				system("cls");
 
-				printf("\n");
 			}
 			if (ab == 1)
 			{
-				printf("게임종료 ^모^\n");
+				SetColor(0, 4);
+				printf("게임종료 ^오^\n");
 				printf("컴퓨터의 값은 %d 입니다.\n", computervalue);
 			}
 			

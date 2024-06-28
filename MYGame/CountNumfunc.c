@@ -4,11 +4,20 @@
 #include <stdlib.h>
 #include <time.h>
 
-void gamewin()
+void GameWin()
 {
 	// 승리했을 때는 색상을 붉은색으로 표시한다.
 
 	printf("축하합니다! 게임을 클리어하셨습니다.\n");
+}
+
+// 함수 이름 쉽게 변경하는 방법 : Ctrl + R + R
+
+void StartGameSetting()
+{
+	int playerHP = InputNumber(5); // ?
+	printf("환영합니다.");
+	printf("숫자를 입력하면 게임이 시작됩니다.");
 }
 
 void SetColor(unsigned char BGColor, unsigned char TextColor)
@@ -21,6 +30,14 @@ void SetColor(unsigned char BGColor, unsigned char TextColor)
 
 void GameStart()
 {
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ★☆★☆★☆★☆★☆★☆★☆★☆★ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★숫자 게임!★☆★☆★☆ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n");
+	printf("| ★☆★☆★☆★☆★☆★☆★☆★☆★ |\n");
+	printf("| ☆★☆★☆★☆★☆★☆★☆★☆★☆ |\n\n");
+
 	while (1) // 정해진 숫자만 입력하게 <0 : 게임종료> <1 : 게임시작> 그외 숫자는 숫자를 다시 입력하게
 	{
 		printf("게임을 시작하려면 1을 입력하세요.\n");
@@ -44,4 +61,22 @@ void GameStart()
 			printf("잘못된 입력입니다. 0 또는 1을 입력해주세요.\n\n");
 		}
 	}
+}
+
+int InputNumber() // ?
+{
+	int retrunNumber;
+	return scanf_s("%d", &retrunNumber);
+}
+
+int Fail(int playerHP) // ???
+{
+	//어떤 특별한 변수, 체력을 빼야합니다.
+	int currentPlayHP = playerHP - 1;
+}
+
+// ConSole 함수 모음?
+void Clear_ConSole() // 위에 창을 없앰
+{
+	system("cls");
 }

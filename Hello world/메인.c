@@ -19,7 +19,8 @@ int main(void)
 	//lectures12_3();
 	//lectures13();
 	//lectures13_switch();
-	lectures14();
+	//lectures14();
+	lectures15();
 
 	return 0;
 }

@@ -87,6 +87,9 @@
     <ClCompile Include="단축키 모음.c">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
+    <ClCompile Include="lectures15.c">
+      <Filter>소스 파일\강의</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lectures.h">
