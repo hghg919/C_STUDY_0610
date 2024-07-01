@@ -54,27 +54,11 @@ int main(void) // 함수 사용시 변수 에러 해결
 
 	Clear_ConSole();  // 위에 창을 없앰
 
-	while (1)
-	{
-		printf("1 ~ 100 범위의 플레이어의 값을 넣어주세요.\n"); // 게임 도중에도 적용되게, 범위 밖의 값을 넣을 시 카운트는 제거 되지 않도록
-		printf("입력 : ");
-		scanf_s("%d", &uservalue);
-
-		if (uservalue < 1 || 100 < uservalue)
-		{
-			printf("\n");
-			printf("잘못된 입력입니다.\n");
-		}
-		else
-		{
-			printf("\n");
-			break;
-		}
-	}
+	uservalue = getUserInput();
 
 	Clear_ConSole();
 
-	int ab; // 남은 기회가 1일때 값을 맞추어도 실패했다고 뜨는 부분을 해결해야함
+	int ab; // 남은 기회가 1일때 값을 맞추어도 실패했다고 뜨는 부분을 해결해야함 // 함수화
 	for (int ab = 7 ; ab > 0 ; ab--)
 	{
 

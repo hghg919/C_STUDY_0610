@@ -80,3 +80,26 @@ void Clear_ConSole() // 위에 창을 없앰
 {
 	system("cls");
 }
+
+int getUserInput(int uservalsue)
+{
+	int uservalue;
+	while (1) // 함수화
+	{
+		printf("1 ~ 100 범위의 플레이어의 값을 넣어주세요.\n"); // 게임 도중에도 적용되게, 범위 밖의 값을 넣을 시 카운트는 제거 되지 않도록
+		printf("입력 : ");
+		scanf_s("%d", &uservalue);
+
+		if (uservalue < 1 || 100 < uservalue)
+		{
+			printf("\n");
+			printf("잘못된 입력입니다.\n");
+		}
+		else
+		{
+			printf("\n");
+			break;
+		}
+	}
+	return uservalue;
+}

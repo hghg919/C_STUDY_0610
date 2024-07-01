@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello world", "Hello world.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MYGame", "..\MYGame\MYGame.vcxproj", "{F34B843B-B155-4B66-9D46-C4187B929285}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aviod_Star", "..\Aviod_Star\Aviod_Star.vcxproj", "{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F34B843B-B155-4B66-9D46-C4187B929285}.Release|x64.Build.0 = Release|x64
 		{F34B843B-B155-4B66-9D46-C4187B929285}.Release|x86.ActiveCfg = Release|Win32
 		{F34B843B-B155-4B66-9D46-C4187B929285}.Release|x86.Build.0 = Release|Win32
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Debug|x64.ActiveCfg = Debug|x64
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Debug|x64.Build.0 = Debug|x64
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Debug|x86.Build.0 = Debug|Win32
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Release|x64.ActiveCfg = Release|x64
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Release|x64.Build.0 = Release|x64
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Release|x86.ActiveCfg = Release|Win32
+		{36CA524B-8688-4F6C-8D20-04EF3F14DFC4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
