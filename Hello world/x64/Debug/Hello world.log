@@ -1,26 +1,12 @@
-﻿  lectures10.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures10.c(62,21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures10.c(66,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  lectures11.c
-  lectures4.c
-  lectures5.c
-  lectures6.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures6.c(74,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
-  lectures7.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures7.c(68,8): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures7.c(77,17): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
-  lectures8.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures8.c(106,14): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures8.c(144,18): warning C4552: '<<': 식의 결과가 사용되지 않습니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures8.c(149,18): warning C4552: '>>': 식의 결과가 사용되지 않습니다.
-  lectures9.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures9.c(137,24): warning C4215: 비표준 확장이 사용됨: long float입니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures9.c(198,10): warning C4477: 'scanf_s' : 서식 문자열 '%f'에 'float *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const double *'입니다.
-  메인.c
-  lectures1.c
-  lectures2.c
-  lectures3.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures3.c(55,34): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
-  LINK : C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\Hello world.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+﻿  lectures16.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,38): warning C4101: 'a9' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,14): warning C4101: 'a3' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,10): warning C4101: 'a2' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,6): warning C4101: 'a1' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,22): warning C4101: 'a5' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,42): warning C4101: 'a10' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,26): warning C4101: 'a6' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,18): warning C4101: 'a4' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,34): warning C4101: 'a8' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures16.c(25,30): warning C4101: 'a7' :참조되지 않은 지역 변수입니다.
   Hello world.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\Hello world.exe
