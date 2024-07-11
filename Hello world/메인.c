@@ -21,7 +21,10 @@ int main(void)
 	//lectures13_switch();
 	//lectures14();
 	//lectures15();
-	lectures16();
+	//lectures16();
+
+	// °×ÇÁ 2½ÃÀÛ
+	lectures17();
 
 	return 0;
 }

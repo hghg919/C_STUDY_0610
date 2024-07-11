@@ -3,7 +3,7 @@
 #include <windows.h>
 
 
-void GameStart(void)
+void GameStart(void)  //커서 제거 추가
 {
 		printf("\n \n \n \n");
 		printf("    ######   ######   #    #     ##     #         #####    #   #          #####   #    #     ##       ##      #####              ###    #    #    #####\n");

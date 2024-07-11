@@ -34,3 +34,8 @@ void lectures13_switch();
 void lectures14();
 void lectures15();
 void lectures16();
+
+/// <summary>
+/// °×ÇÁ2 ½ÃÀÛ
+/// </summary>
+void lectures17();
