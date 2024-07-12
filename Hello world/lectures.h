@@ -39,3 +39,4 @@ void lectures16();
 /// °×ÇÁ2 ½ÃÀÛ
 /// </summary>
 void lectures17();
+void lectures18();

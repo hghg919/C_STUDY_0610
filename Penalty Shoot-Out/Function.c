@@ -92,7 +92,19 @@ void GotoXY(int _x, int _y)
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
 
-void GameMain(void)
+void GameMain(void) // 각종 아스키 아트 추가 // 골대 9분할 // 시스템 구축
 {
 
+}
+
+void SetConsoleCursorVisibility(int _bShow)
+{
+	CONSOLE_CURSOR_INFO curInfo;
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+	if (GetConsoleCursorInfo(hConsole, &curInfo))
+	{
+		curInfo.bVisible = _bShow;
+		SetConsoleCursorInfo(hConsole, &curInfo);
+	}
 }
