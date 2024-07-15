@@ -127,21 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1강_hello world.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="3강_변수.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="2강_컴파일러.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="4강_이스케이프.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="4강_입력.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="lectures10.c" />
     <ClCompile Include="lectures11.c" />
     <ClCompile Include="lectures12.c" />
@@ -152,7 +137,7 @@
     <ClCompile Include="lectures15.c" />
     <ClCompile Include="lectures16.c" />
     <ClCompile Include="lectures17.c" />
-    <ClCompile Include="lectures18.c" />
+    <ClCompile Include="lectures19.c" />
     <ClCompile Include="lectures4.c" />
     <ClCompile Include="lectures5.c" />
     <ClCompile Include="lectures6.c" />

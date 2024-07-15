@@ -18,21 +18,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1강_hello world.c">
-      <Filter>소스 파일\강의</Filter>
-    </ClCompile>
-    <ClCompile Include="2강_컴파일러.c">
-      <Filter>소스 파일\강의</Filter>
-    </ClCompile>
-    <ClCompile Include="3강_변수.c">
-      <Filter>소스 파일\강의</Filter>
-    </ClCompile>
-    <ClCompile Include="4강_이스케이프.c">
-      <Filter>소스 파일\강의</Filter>
-    </ClCompile>
-    <ClCompile Include="4강_입력.c">
-      <Filter>소스 파일\강의</Filter>
-    </ClCompile>
     <ClCompile Include="lectures1.c">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
@@ -96,7 +81,7 @@
     <ClCompile Include="lectures17.c">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
-    <ClCompile Include="lectures18.c">
+    <ClCompile Include="lectures19.c">
       <Filter>소스 파일\강의</Filter>
     </ClCompile>
   </ItemGroup>

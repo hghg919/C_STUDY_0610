@@ -25,7 +25,8 @@ int main(void)
 
 	// °×ÇÁ 2½ÃÀÛ
 	//lectures17();
-	lectures18();
+	//lectures18();
+	lectures19();
 
 	return 0;
 }
