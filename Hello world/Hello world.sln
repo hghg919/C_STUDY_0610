@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aviod_Star", "..\Aviod_Star
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Penalty Shoot-Out", "..\Penalty Shoot-Out\Penalty Shoot-Out.vcxproj", "{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleAdventure", "..\ConsoleAdventure\ConsoleAdventure.vcxproj", "{EBAB774F-286A-4AB9-9011-2ED56BB81187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}.Release|x64.Build.0 = Release|x64
 		{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}.Release|x86.ActiveCfg = Release|Win32
 		{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}.Release|x86.Build.0 = Release|Win32
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Debug|x64.ActiveCfg = Debug|x64
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Debug|x64.Build.0 = Debug|x64
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Debug|x86.Build.0 = Debug|Win32
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Release|x64.ActiveCfg = Release|x64
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Release|x64.Build.0 = Release|x64
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Release|x86.ActiveCfg = Release|Win32
+		{EBAB774F-286A-4AB9-9011-2ED56BB81187}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
