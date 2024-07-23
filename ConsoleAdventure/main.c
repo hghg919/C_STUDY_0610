@@ -19,7 +19,7 @@ void InputProcess(int* x, int* y)
 	}
 	else if (GetAsyncKeyState(VK_RIGHT) & 8001)
 	{
-		if (*x > 28) *x = 28;
+		if (*x > 27) *x = 27;
 		*x += 1;
 	}
 	else if (GetAsyncKeyState(VK_UP) & 8001)
@@ -29,7 +29,7 @@ void InputProcess(int* x, int* y)
 	}
 	else if (GetAsyncKeyState(VK_DOWN) & 8001)
 	{
-		if (*y > 28) *y = 28;
+		if (*y > 27) *y = 27;
 		*y += 1;
 	}
 }
@@ -87,8 +87,6 @@ void RenderMap() // 만들어진 맵을 그리는 함수
 	mapString[mapIndex] = '\0';
 }
 
-
-
 void GameInfo()	// 게임의 정보를 출력하는 함수를 담당.
 {
 
@@ -110,9 +108,7 @@ int main()
 	int itemX = 8, itemY = 8;
 
 	// 게임 맵 세팅
-
-
-
+	
 	// 테두리(외벽) 설정
 	MakeMap('#', map);
 	// 내벽 데이터 넣어주기.
@@ -152,8 +148,6 @@ int main()
 		}
 
 #endif
-		// 화면 밖을 나가면 @ (0,0)으로 움직이는 현상도 막아보세요
-
 
 		Sleep(50);
 	}

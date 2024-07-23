@@ -46,3 +46,4 @@ void lectures20();
 void lectures21();
 void lectures22();
 void lectures23();
+void lectures24();
