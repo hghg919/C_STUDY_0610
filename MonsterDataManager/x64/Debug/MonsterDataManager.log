@@ -1,0 +1,9 @@
+﻿  Main.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(39,3): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(30,7): warning C4101: 'monster_name' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(33,6): warning C4101: 'monster_level' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(32,7): warning C4101: 'monster_grade' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(31,7): warning C4101: 'monster_region' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(35,6): warning C4101: 'totalMonsterCount' :참조되지 않은 지역 변수입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\Main.c(20): warning C4716: 'AddMonster': 값을 반환해야 합니다.
+  MonsterDataManager.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\MonsterDataManager.exe
