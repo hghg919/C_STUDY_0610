@@ -1,3 +1,7 @@
-﻿  lectures15.c
-C:\Users\Administrator\Desktop\C_STUDY_0610\Hello world\lectures15.c(42,2): warning C4013: 'simplefunc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Hello world.vcxproj -> C:\Users\Administrator\Desktop\C_STUDY_0610\Hello world\x64\Debug\Hello world.exe
+﻿  lectures26.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures26.c(41,3): warning C4098: 'WriteFile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures26.c(60,3): warning C4098: 'WriteFile1': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures26.c(77,3): warning C4098: 'Readfile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures26.c(110,3): warning C4098: 'WriteFileByStruct': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures26.c(133,3): warning C4098: 'lectures26': 'void' 함수에서 값을 반환하고 있습니다.
+  Hello world.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\Hello world.exe

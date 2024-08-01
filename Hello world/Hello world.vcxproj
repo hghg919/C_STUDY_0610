@@ -145,6 +145,7 @@
     <ClCompile Include="lectures23.c" />
     <ClCompile Include="lectures24.c" />
     <ClCompile Include="lectures25.c" />
+    <ClCompile Include="lectures26.c" />
     <ClCompile Include="lectures4.c" />
     <ClCompile Include="lectures5.c" />
     <ClCompile Include="lectures6.c" />

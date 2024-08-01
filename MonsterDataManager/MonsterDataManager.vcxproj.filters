@@ -15,8 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="구조체 예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Function.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
