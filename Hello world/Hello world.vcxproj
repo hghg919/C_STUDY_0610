@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileFunc.c" />
     <ClCompile Include="lectures10.c" />
     <ClCompile Include="lectures11.c" />
     <ClCompile Include="lectures12.c" />
@@ -159,6 +160,7 @@
     <ClCompile Include="lectures3.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileFunc.h" />
     <ClInclude Include="lectures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

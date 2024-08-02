@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include "Function.h"
+#define filename "monsterData.txt"
+
+#include <stdlib.h>
 
 // 1. Monster name, region, grade, level 구조체 변수를 선언해서 printf 출력.
 // 2. 구조체 배열. 만들어 보고 반복문으로 몬스터 배열 출력.
@@ -12,16 +15,7 @@
 // 반환값 함수이름() {}
 // Call by value vs Call by reference 
 
-void ShowInfo(int data) {
-	printf("%d", data);
-}
-
 // Monster 변수
-
-int SearchMonster();	 // compare 함수 만들어야 합니다.
-int ShowAllMonster();	 // printf( 배열에 있는 모든 요소 Monster[i].name)...
-int DeleteMonster();	 // 특정 배열 요소 검색해서 데이터가 있으면 해당 데이터를 null, 0 변경
-
 void ShowAllMonsterData(Monster monster[100], int total)
 {
 	for (int i = 0; i < total; ++i) {
@@ -56,6 +50,59 @@ void DeleteMonsterByName(Monster monster[100], int* totalCount)
 
 }
 
+void PrintMonsterList(Monster* monsterList, int totatlCount)
+{
+	FILE* fp = fopen(filename, "w");
+
+	if (fp == NULL)
+	{
+		perror("파일 쓰기 실패!\n");
+	}
+
+	for (int i = 0; i < totatlCount; ++i)
+	{
+		fprintf(fp, "%s %s %s\n", monsterList[i].name, monsterList[i].region, monsterList[i].grade);
+	}
+
+	fclose(fp);
+}
+
+void LoadMonsterData(Monster* monsterList, int* totalCount)
+{
+	FILE* fp = fopen(filename, "r");
+
+	if (fp == NULL)
+	{
+		perror("파일 읽기 실패!\n");
+	}
+
+	int count = 0;
+	char ch;
+
+	if (fgetc(fp) != EOF)
+	{
+		count = 1;
+	}
+	fseek(fp, 0, SEEK_SET); // fp가 가리키는 주소를 파일의 시작으로 이동
+	while (fgetc(fp) != EOF)
+	{
+		ch = fgetc(fp);	    // 
+		if (ch == '\n') {
+			count++;
+		}
+	}
+	fseek(fp, 0, SEEK_SET);
+
+	*totalCount = count;
+
+	for (int i = 0; i < count; ++i)
+	{
+		fscanf_s(fp, "%s %s %s", (monsterList + i)->name, 30, (monsterList + i)->region, 30, (monsterList + i)->grade, 30);
+	}
+
+	fclose(fp);
+}
+
 int main()
 {
 	int playerInput = 0;
@@ -67,6 +114,8 @@ int main()
 	//char monster_grade[100][30];
 
 	int totalMonsterCount = 0; // 몬스터 데이터에 몇번 Index에 저장되었는가
+
+	LoadMonsterData(monsterGroup, &totalMonsterCount);
 
 	while (1)
 	{
@@ -102,8 +151,9 @@ int main()
 		if (playerInput == 6) {
 			break;
 		}
-
 	}
+
+	PrintMonsterList(monsterGroup, totalMonsterCount);
 
 
 }
