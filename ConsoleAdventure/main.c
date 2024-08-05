@@ -110,9 +110,9 @@ int main()
 	// 게임 맵 세팅
 	
 	// 테두리(외벽) 설정
-	MakeMap('#', map);
+	MakeMap('$', map);
 	// 내벽 데이터 넣어주기.
-	map[10][10] = '#';
+	map[10][10] = '%';
 
 	RenderMap();
 

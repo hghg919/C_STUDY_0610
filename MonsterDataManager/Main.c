@@ -103,7 +103,7 @@ void LoadMonsterData(Monster* monsterList, int* totalCount)
 	fclose(fp);
 }
 
-int main()
+int main(void)
 {
 	int playerInput = 0;
 
@@ -155,5 +155,5 @@ int main()
 
 	PrintMonsterList(monsterGroup, totalMonsterCount);
 
-
+	return 0;
 }

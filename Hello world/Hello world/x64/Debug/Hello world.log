@@ -1,2 +1,4 @@
-﻿  lectures26.c
+﻿  lectures27.c
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures27.c(96,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\lectures27.c(103,9): warning C4475: 'printf' : 길이 한정자 'I'은(는) 서식 지정자에서 형식 필드 문자 'f'과(와) 함께 사용할 수 없습니다.
   Hello world.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\Hello world.exe

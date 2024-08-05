@@ -21,6 +21,9 @@
     <ClCompile Include="Function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="잡다한 코드 정리.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h">

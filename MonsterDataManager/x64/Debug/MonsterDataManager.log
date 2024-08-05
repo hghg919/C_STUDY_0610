@@ -1,6 +1,5 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(MonsterDataManager.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   main.c
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\main.c(137,19): warning C4047: '함수': 'Monster (*)[100]'의 간접 참조 수준이 'Monster [100]'과(와) 다릅니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\main.c(137,19): warning C4024: 'AddMonsterInfo': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\main.c(149,4): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\main.c(136,19): warning C4047: '함수': 'Monster (*)[100]'의 간접 참조 수준이 'Monster [100]'과(와) 다릅니다.
+C:\Users\Jung\Documents\GitHub\C_STUDY_0610\MonsterDataManager\main.c(136,19): warning C4024: 'AddMonsterInfo': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
   MonsterDataManager.vcxproj -> C:\Users\Jung\Documents\GitHub\C_STUDY_0610\Hello world\x64\Debug\MonsterDataManager.exe

@@ -3,17 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Hello world\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DDF5041-7D60-4180-9E2D-03E10C845472}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}|..\\Penalty Shoot-Out\\Penalty Shoot-Out.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DDF5041-7D60-4180-9E2D-03E10C845472}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}|..\\Penalty Shoot-Out\\Penalty Shoot-Out.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Hello world\\lectures26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCEB35F-3925-4838-9AB6-C3EC3B5773D2}|Hello world.vcxproj|solutionrelative:lectures26.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}|..\\Penalty Shoot-Out\\Penalty Shoot-Out.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DDF5041-7D60-4180-9E2D-03E10C845472}|..\\MonsterDataManager\\MonsterDataManager.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BEE0BEAF-6CE7-4472-A644-DA1680CC0CC1}|..\\Penalty Shoot-Out\\Penalty Shoot-Out.vcxproj|C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,57 +22,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 306,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lectures26.c",
-              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Hello world\\lectures26.c",
-              "RelativeDocumentMoniker": "lectures26.c",
-              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Hello world\\lectures26.c",
-              "RelativeToolTip": "lectures26.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-08-01T08:18:57.149Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Function.h",
-              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.h",
-              "RelativeDocumentMoniker": "..\\MonsterDataManager\\Function.h",
-              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.h",
-              "RelativeToolTip": "..\\MonsterDataManager\\Function.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.h",
+              "RelativeDocumentMoniker": "..\\Penalty Shoot-Out\\Function.h",
+              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.h",
+              "RelativeToolTip": "..\\Penalty Shoot-Out\\Function.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-30T07:20:02.852Z"
+              "WhenOpened": "2024-08-02T08:19:07.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Function.c",
-              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.c",
-              "RelativeDocumentMoniker": "..\\MonsterDataManager\\Function.c",
-              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Function.c",
-              "RelativeToolTip": "..\\MonsterDataManager\\Function.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Main.c",
+              "RelativeDocumentMoniker": "..\\Penalty Shoot-Out\\Main.c",
+              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Main.c",
+              "RelativeToolTip": "..\\Penalty Shoot-Out\\Main.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-30T07:17:13.79Z",
+              "WhenOpened": "2024-08-02T08:17:57.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Main.c",
-              "RelativeDocumentMoniker": "..\\MonsterDataManager\\Main.c",
-              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\MonsterDataManager\\Main.c",
-              "RelativeToolTip": "..\\MonsterDataManager\\Main.c",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAFsAAAADAAAA",
+              "Title": "Function.c",
+              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.c",
+              "RelativeDocumentMoniker": "..\\Penalty Shoot-Out\\Function.c",
+              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\Function.c",
+              "RelativeToolTip": "..\\Penalty Shoot-Out\\Function.c",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAOAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-28T07:54:54.323Z",
+              "WhenOpened": "2024-08-02T08:19:07.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c",
+              "DocumentMoniker": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c",
+              "RelativeDocumentMoniker": "..\\Penalty Shoot-Out\\\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c",
+              "ToolTip": "C:\\Users\\Jung\\Documents\\GitHub\\C_STUDY_0610\\Penalty Shoot-Out\\\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c",
+              "RelativeToolTip": "..\\Penalty Shoot-Out\\\uC7A1\uB2E4\uD55C \uCF54\uB4DC \uC815\uB9AC.c",
+              "ViewState": "AQIAALQAAAAAAAAAAAAiwOQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T08:43:48.226Z",
               "EditorCaption": ""
             }
           ]
