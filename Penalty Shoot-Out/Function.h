@@ -35,3 +35,5 @@ void GameMain(void);
 // cursor를 보이게, 안보이게 하는 함수 
 //──────────────────────────────────────────────────────
 void SetConsoleCursorVisibility(int _bShow);
+
+extern int selected_pair[2];

@@ -4,6 +4,7 @@
 
 #define ROWS 30	 // 가로
 #define COLS 30	 // 세로   Collums(기둥)
+#define filename "playerData.txt"
 
 char map[COLS][ROWS] = { 0 };	   // 맵 안에있는 데이터
 // ROWS + 1 : 개행 문자 '\n' 더해준 것.
@@ -92,8 +93,86 @@ void GameInfo()	// 게임의 정보를 출력하는 함수를 담당.
 
 }
 
+typedef struct PlayerData
+{
+	char name[30]; // 이름을 저장하기 위한 배열
+	int score;     // 정수 형태로 점수를 저장한다.
+}PlayerData;
+
+typedef enum Level
+{
+	Easy, Normal, Hard
+}Level;
+
+typedef struct GameMode
+{
+	Level level1;
+};
+
+void SavePlayerData(PlayerData* player, int totatlCount)
+{
+	FILE* fp = fopen(filename, "w");
+
+	if (fp == NULL)
+	{
+		perror("파일 쓰기 실패!\n");
+	}
+
+	for (int i = 0; i < totatlCount; ++i)
+	{
+		fprintf(fp, "%s %d \n", player[i].name, player[i].score);
+	}
+
+	fclose(fp);
+}
+
+void LoadPlayerData(PlayerData* player, int* totalCount)
+{
+	FILE* fp = fopen(filename, "r");
+
+	if (fp == NULL)
+	{
+		perror("파일 읽기 실패!\n");
+	}
+
+	int count = 0;
+	char ch;
+
+	if (fgetc(fp) != EOF)
+	{
+		count = 1;
+	}
+	fseek(fp, 0, SEEK_SET); // fp가 가리키는 주소를 파일의 시작으로 이동
+	while (fgetc(fp) != EOF)
+	{
+		ch = fgetc(fp);	    // 
+		if (ch == '\n') {
+			count++;
+		}
+	}
+	fseek(fp, 0, SEEK_SET);
+
+	*totalCount = count;
+
+	for (int i = 0; i < count; ++i)
+	{
+		fscanf_s(fp, "%s %d", (player + i)->name, 30, &(player + i)->score);
+	}
+
+	fclose(fp);
+}
+
+// 플레이어 데이터를 어떤 방식으로 저장할지
+
 int main()
 {
+	PlayerData p1 = { "김동훈", 100 };
+	SavePlayerData(&p1,1);
+	PlayerData allpalyerData[10];
+	int totalCount = 0;
+	LoadPlayerData(allpalyerData, &totalCount);
+	printf("%s %d", allpalyerData[0].name, allpalyerData[0].score);
+
 	printf("Hello World!\n");
 	Clear(); // 콘솔을 전부 지워주는 기능
 

@@ -129,9 +129,6 @@
   <ItemGroup>
     <ClCompile Include="Function.c" />
     <ClCompile Include="Main.c" />
-    <ClCompile Include="잡다한 코드 정리.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Function.h" />

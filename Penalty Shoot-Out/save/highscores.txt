@@ -1,0 +1,10 @@
+Name:            d, Score: 100
+Name: 테스트1 , Score: 100
+Name:          수정중, Score: 100
+Name:  오늘 은 여기까지 , Score: 1300
+Name: 아 죽었당 , Score: 700
+Name:  테스트중임 , Score: 900
+Name:     음?  , Score: 600
+Name:    디파인, Score: 700
+Name:  죽었당    , Score: 1000
+Name:   죽으면  , Score: 500
