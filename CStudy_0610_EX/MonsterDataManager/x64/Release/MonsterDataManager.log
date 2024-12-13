@@ -1,0 +1,8 @@
+﻿  Function.c
+  main.c
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\Function.c(24,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\Function.c(25,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\Function.c(31,2): warning C4013: 'strcpy_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  구조체 예제.c
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\구조체 예제.c(69,1): error C2449: 파일 범위에 '{'가 있습니다. 함수 헤더가 없는 것 같습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\MonsterDataManager\구조체 예제.c(113,1): error C2059: 구문 오류: '}'

@@ -1,0 +1,222 @@
+﻿  FileFunc.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\FileFunc.c(10,11): warning C4098: 'WriteFile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\FileFunc.c(23,11): warning C4098: 'ReadFile': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\FileFunc.c(51,11): warning C4098: 'WriteFileByStruct': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\FileFunc.c(65,11): warning C4098: 'ReadFileByStruct': 'void' 함수에서 값을 반환하고 있습니다.
+  lecture1.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture1.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture1.c'을(를) 컴파일하는 중)
+  
+  lecture10.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture10.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture10.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture10.c(55,21): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture10.c(59,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture11.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture11.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture11.c'을(를) 컴파일하는 중)
+  
+  lecture12.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture12.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture12.c'을(를) 컴파일하는 중)
+  
+  lecture12_3.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture12_3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture12_3.c'을(를) 컴파일하는 중)
+  
+  lecture13.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture13.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture13.c'을(를) 컴파일하는 중)
+  
+  lecture13_switch.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture13_switch.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture13_switch.c'을(를) 컴파일하는 중)
+  
+  lecture14.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(36,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(50,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture14.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(71,15): warning C4013: 'AddTwoNumber'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(83,24): warning C4013: 'Compare'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture14.c(83,33): warning C4013: 'AbsoluteNum'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  lecture15.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture15.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture15.c'을(를) 컴파일하는 중)
+  
+  lecture16.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture16.c'을(를) 컴파일하는 중)
+  
+  lecture17.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture17.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture17.c(121,38): warning C4101: 'temp_num' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture17.c(35,6): warning C4101: 'num2' :참조되지 않은 지역 변수입니다.
+  lecture18.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture18.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(36,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(36,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(37,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(37,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(157,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(157,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(158,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(158,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(26,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(27,7): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(95,8): warning C4047: '초기화 중': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(98,9): warning C4047: '초기화 중': 'short *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture18.c(210,8): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  lecture19.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'lecture19.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture19.c(52,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture19.c(52,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture19.c(53,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture19.c(53,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture19.c(40,7): warning C4090: '초기화 중': 'const' 한정자가 서로 다릅니다.
+  lecture2.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture2.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture2.c'을(를) 컴파일하는 중)
+  
+  lecture20.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture20.c(32,3): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture20.c'을(를) 컴파일하는 중)
+  
+  lecture21.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture21.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture21.c(71,6): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  lecture22.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture22.c'을(를) 컴파일하는 중)
+  
+  lecture23.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture23.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(72,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(72,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(73,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(73,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(74,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(74,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture23.c(65,8): warning C4047: '초기화 중': 'int **'의 간접 참조 수준이 'int (*)[4]'과(와) 다릅니다.
+  lecture24.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture24.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture24.c(136,27): warning C4133: '함수': 'Player *'과(와) 'Player2 *' 사이의 형식이 호환되지 않습니다.
+  컴파일하고 있습니다...
+  lecture25.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture25.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture25.c(16,9): warning C4068: 알 수 없는 pragma 'pop'
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture25.c(128,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Point'입니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture25.c(151,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture25.c(151,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  lecture26.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture26.c'을(를) 컴파일하는 중)
+  
+  lecture27.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture27.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture27.c(97,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture27.c(97,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+  lecture3.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture3.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture3.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture3.c(49,34): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture4.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture4.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture4.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture4.c(117,6): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+  lecture5.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture5.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  lecture6.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture6.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture6.c(65,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture6.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture6.c(72,6): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+  lecture7.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture7.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture7.c(28,2): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture7.c(64,8): warning C4305: '=': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture7.c(85,2): warning C4013: 'scanf_s'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  lecture8.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture8.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture8.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture8.c(102,15): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture8.c(143,18): warning C4552: '<<': 식의 결과가 사용되지 않습니다.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture8.c(148,18): warning C4552: '>>': 식의 결과가 사용되지 않습니다.
+  lecture9.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture9.c(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/lecture9.c'을(를) 컴파일하는 중)
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture9.c(135,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+  C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture9.c(135,9):
+  서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lecture9.c(133,8): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  메인.c
+C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\lectures.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../HelloWorld/메인.c'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  HelloWorld.vcxproj -> C:\Users\Administrator\Desktop\CStudy_0610\HelloWorld\x64\Release\HelloWorld.exe
